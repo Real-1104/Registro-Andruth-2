@@ -41,6 +41,19 @@
             </form>
         </div>
     </div>
+    <script>
+        const varnombre = document.getElementById("Usuario");
+
+        varnombre.addEventListener("input",function (event) {
+        if (varnombre.validity.patternMismatch) {
+
+            varnombre.setcustomValidity("Ingresa Solamente Letras ");
+        }else{
+
+            varnombre.setcustomValidity("");
+        }
+        }
+        </script>
 </body>
 
 </html>
