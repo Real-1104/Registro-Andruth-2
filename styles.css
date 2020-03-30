@@ -12,12 +12,6 @@ body{
 	max-width: 800px;
 	margin: 120px auto;
 }
-input:invalid {
-	border: 2px solid red;
-  }
-  input:valid {
-	border: 2px solid black;
-  }
 #registration-form .image{
 	float:left;
 	background-image: url("desk.jpg");
